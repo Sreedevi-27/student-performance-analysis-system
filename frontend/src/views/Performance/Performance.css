@@ -1,0 +1,13 @@
+.performance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.performance-heading {
+  display: flex;
+  justify-content: center;
+  color: #5c3d2e;
+}

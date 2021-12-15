@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: var(--tertiary-color);
+  justify-content: space-between;
+}
+
+.heading {
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.nav-links-and-avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container {
+  margin: 0 15px;
+}

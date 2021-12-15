@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Cambria;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faeee0;
+}
+
+:root {
+  --primary-color: #f0a500;
+  --secondary-color: #334756;
+  --tertiary-color: #082032;
+  --background-color: #faeee0;
+  --black: #000000;
+  --white: #ffffff;
+  --success: #34c759;
+}

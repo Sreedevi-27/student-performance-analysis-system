@@ -1,0 +1,24 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkblue;
+    font-size: 50px;
+    color: white;
+}
+.name, .roll-no {
+    color: white;
+    font-weight: 600;
+}

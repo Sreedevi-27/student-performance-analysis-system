@@ -1,0 +1,14 @@
+.std-head{
+   width: 100%;
+   height: 100px;
+}
+
+.std-img{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.std-details{
+    color: black;
+}

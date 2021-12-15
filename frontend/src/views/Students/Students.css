@@ -1,0 +1,58 @@
+.students-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#student-table-list {
+  border-collapse: collapse;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+#student-table-list th {
+  background-color: rgb(214, 212, 212);
+}
+
+#student-table-list td,
+#student-table-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#student-table-list tr:hover {
+  background-color: #ddd;
+}
+
+.action-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

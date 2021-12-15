@@ -1,0 +1,15 @@
+.link {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+}
+.link:hover {
+  background-color: rgb(31, 31, 192);
+  transition: background-color 200ms linear;
+}
+.link-anchor {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  font-size: 18px;
+}

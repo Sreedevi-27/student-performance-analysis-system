@@ -1,0 +1,85 @@
+.login-page {
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+.college-name {
+  position: absolute;
+  width: 65vw;
+  height: 50vh;
+  border-bottom-right-radius: 100%;
+  background-color: var(--primary-color);
+}
+
+.college-name__heading-1,
+.college-name__heading-2,
+.college-name__heading-3 {
+  color: var(--white);
+  margin: 0;
+  margin-left: 20px;
+}
+
+.college-name__heading-1 {
+  margin-top: 50px;
+}
+
+.login-form {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 30vw;
+  height: 40vh;
+  right: 50px;
+  bottom: 50px;
+  padding: 50px;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.login-form__heading {
+  color: var(--primary-color);
+}
+
+.email-password {
+  padding: 7px;
+}
+
+.text {
+  height: 25px;
+  width: 240px;
+  border-radius: 5px;
+  border: 2px solid var(--secondary-color);
+  padding: 0 10px;
+}
+
+.select-box {
+  width: 260px;
+}
+
+.select-box select {
+  height: 30px;
+  width: 100%;
+  padding: 5px 10px;
+  line-height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.select-box:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: 75px;
+  margin-right: 120px;
+  border-top: 8px solid var(--primary-color);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
